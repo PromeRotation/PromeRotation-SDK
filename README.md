@@ -1,30 +1,15 @@
-# PromeRotation SDK
+# PromeRotation SDK API15 分支
 
-这里存放 PromeRotation 的公开 SDK 编译引用包，用于在没有安装繁中服卫月开发环境的情况下编译 PromeRotation ACR 或扩展。
+这是 PromeRotation SDK 的 API15 预留分支。
 
-## 包列表
+目前 API15 SDK 包尚未制作，因此本分支只保留基础仓库配置和占位说明，不包含任何 API15 引用程序集，也不会生成 NuGet 包。
 
-| 包名 | 状态 | 目标环境 |
-| --- | --- | --- |
-| `PromeRotation.SDK.API12` | 预览版 | .NET 9、Dalamud API 12、繁中服环境、PromeRotation API12 |
-| `PromeRotation.SDK.API15` | 预留 | API15 包尚未制作 |
+API12 SDK 内容请查看 `api12` 分支或默认 `main` 分支。
 
-这些包只提供编译期引用程序集，不提供游戏运行时资产，也不能替代实际安装在游戏环境中的 Dalamud 或 PromeRotation。
+## 当前内容
 
-## 仓库结构
+- `PromeRotation.SDK.API15/README.md`：API15 占位说明。
+- `.gitignore` / `.gitattributes`：仓库基础配置。
+- `LICENSE.txt`：PromeRotation SDK 二进制引用包许可说明。
 
-- `PromeRotation.SDK.API12/`：API12 NuGet 包项目。
-- `PromeRotation.SDK.API15/`：API15 包预留目录，目前只有占位说明。
-- `licenses/`：第三方许可证文本。
-- `THIRD-PARTY-NOTICES.md`：第三方组件来源和许可证说明。
-
-生成的 `bin/`、`obj/`、`artifacts/` 目录不会提交到仓库。
-
-## 分支规划
-
-仓库可以维护长期分支，例如：
-
-- `api12`：当前 API12 SDK 包。
-- `api15`：未来 API15 SDK 包。
-
-API15 尚未制作时，分支里应至少保留 README 或占位提交，明确说明该版本尚未发布。完全空目录无法被 Git 记录，也容易让使用者误以为内容遗漏。
+当 API15 引用程序集准备好后，再在本分支添加 `PromeRotation.SDK.API15` 包项目、`refs/` DLL、第三方组件声明和对应许可证文件。
