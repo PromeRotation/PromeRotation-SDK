@@ -1,0 +1,13 @@
+GNU Affero General Public License version 3
+
+The full license text is available from the Free Software Foundation:
+
+https://www.gnu.org/licenses/agpl-3.0.txt
+
+The API12 Dalamud fork used by this SDK package is available at:
+
+https://github.com/yanmucorp/Dalamud
+
+The original upstream Dalamud repository is available at:
+
+https://github.com/goatcorp/Dalamud

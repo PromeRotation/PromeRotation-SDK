@@ -1,0 +1,11 @@
+PromeRotation SDK 二进制引用包许可说明
+
+Copyright (c) PromeRotation contributors. All rights reserved.
+
+本仓库和 NuGet 包包含 PromeRotation 的二进制引用程序集，用途仅限于编译 PromeRotation ACR 或扩展。
+
+本文件不授予 PromeRotation 源代码许可证。除非 PromeRotation 另行以书面形式发布其他许可条款，否则包内 PromeRotation 相关程序集仍为专有组件。
+
+包内第三方程序集仍适用其各自的上游许可证。组件来源、许可证和归属信息请见 THIRD-PARTY-NOTICES.md。
+
+本包按现状提供，不附带任何明示或默示担保，包括但不限于适销性、特定用途适用性和非侵权担保。

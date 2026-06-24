@@ -1,0 +1,30 @@
+# Build output
+**/bin/
+**/obj/
+**/artifacts/
+
+# Test output
+**/tests/**/bin/
+**/tests/**/obj/
+**/TestResults/
+**/coverage/
+**/coverage.*
+
+# IDE and local state
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet local output
+*.snupkg
+packages/
+.nuget/
+
+# OS/editor noise
+Thumbs.db
+Desktop.ini
+*.tmp
+*.log
