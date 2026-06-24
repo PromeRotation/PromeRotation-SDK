@@ -1,8 +1,8 @@
 # PromeRotation.SDK.API12
 
-`PromeRotation.SDK.API12` 是 PromeRotation API12 的编译引用包。
+`PromeRotation.SDK.API12` 为 PromeRotation 插件、ACR、脚本、其他拓展开发提供 API12 NuGet 打包配置及编译期 SDK 引用。
 
-这个包面向需要开发 PromeRotation ACR 或扩展的中文开发者。安装后，即使本机没有安装繁中服卫月开发环境，也可以在项目中引用 PromeRotation、Dalamud、Lumina 等 API12 相关程序集完成编译。
+这个包面向中文开发者。安装后，即使本机没有安装繁中服卫月开发环境，也可以在项目中引用 PromeRotation、Dalamud、Lumina 等 API12 相关程序集完成编译。
 
 ## 目标环境
 

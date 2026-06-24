@@ -13,7 +13,7 @@
     <Authors>MilkVio</Authors>
     <Company>PromeRotation</Company>
     <Product>PromeRotation.SDK.API12</Product>
-    <Description>PromeRotation API12 编译引用包，用于在没有本地繁中服卫月开发环境的情况下编译 PromeRotation ACR 或扩展。</Description>
+    <Description>为 PromeRotation 插件、ACR、脚本、其他拓展开发提供 API12 NuGet 打包配置及编译期 SDK 引用。</Description>
     <PackageTags>ffxiv;dalamud;api12;promerotation;sdk;net9</PackageTags>
     <PackageProjectUrl>https://github.com/PromeRotation/PromeRotation-SDK</PackageProjectUrl>
     <RepositoryUrl>https://github.com/PromeRotation/PromeRotation-SDK.git</RepositoryUrl>
