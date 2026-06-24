@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net9.0-windows7.0</TargetFramework>
@@ -7,9 +8,8 @@
     <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
-
     <PackageId>PromeRotation.SDK.API12</PackageId>
-    <Version>0.1.0-preview.1</Version>
+    <Version>0.1.0-preview.2</Version>
     <Authors>MilkVio</Authors>
     <Company>PromeRotation</Company>
     <Product>PromeRotation.SDK.API12</Product>
@@ -23,7 +23,6 @@
     <PackageOutputPath>artifacts</PackageOutputPath>
     <NoWarn>$(NoWarn);NU5128;NU5131</NoWarn>
   </PropertyGroup>
-
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="/" />
     <None Include="LICENSE.txt" Pack="true" PackagePath="/" />
