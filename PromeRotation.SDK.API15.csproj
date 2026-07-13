@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows7.0</TargetFramework>
+    <IsPackable>true</IsPackable>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <PackageId>PromeRotation.SDK.API15</PackageId>
+    <Version>0.1.0-preview.4</Version>
+    <Authors>MilkVio</Authors>
+    <Company>PromeRotation</Company>
+    <Product>PromeRotation.SDK.API15</Product>
+    <Description>为 PromeRotation 插件、ACR、脚本、其他拓展开发提供 API15 NuGet 打包配置及编译期 SDK 引用。</Description>
+    <PackageTags>ffxiv;dalamud;api15;promerotation;sdk;net10</PackageTags>
+    <PackageProjectUrl>https://github.com/PromeRotation/PromeRotation-SDK</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/PromeRotation/PromeRotation-SDK.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageOutputPath>artifacts</PackageOutputPath>
+    <NoWarn>$(NoWarn);NU5128;NU5131</NoWarn>
+  </PropertyGroup>
+  <!-- ECommons 通过 nuget.org 提供，不打进本包；下游 restore 时自动带上。 -->
+  <ItemGroup>
+    <PackageReference Include="ECommons" Version="3.2.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="/" />
+    <None Include="LICENSE.txt" Pack="true" PackagePath="/" />
+    <None Include="THIRD-PARTY-NOTICES.md" Pack="true" PackagePath="/" />
+    <None Include="licenses\*" Pack="true" PackagePath="licenses/" />
+    <None Include="refs\*.dll" Pack="true" PackagePath="ref/net10.0-windows7.0/" />
+  </ItemGroup>
+</Project>
