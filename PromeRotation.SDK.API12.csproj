@@ -9,7 +9,7 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
     <PackageId>PromeRotation.SDK.API12</PackageId>
-    <Version>0.1.0-preview.2</Version>
+    <Version>0.1.0-preview.3</Version>
     <Authors>MilkVio</Authors>
     <Company>PromeRotation</Company>
     <Product>PromeRotation.SDK.API12</Product>
