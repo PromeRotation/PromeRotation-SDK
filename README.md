@@ -25,7 +25,7 @@
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="PromeRotation.SDK.API15" Version="0.1.0-preview.1" />
+    <PackageReference Include="PromeRotation.SDK.API15" Version="0.1.0-preview.5" />
   </ItemGroup>
 </Project>
 ```
